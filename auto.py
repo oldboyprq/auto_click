@@ -6,7 +6,7 @@ import json
 def run():
     print("new round")
 #     payload = json.dumps({"ref": "main"})
-    header = {'Authorization': 'token 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',
+    header = {'Authorization': 'token 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',
               "Accept": "application/vnd.github.v3+json"}
 #     name_list = ['files_rename','E5api','wzry-skins']
     url_list = [r'https://api.github.com/repos/oldboyprq/E5api/actions/workflows/Task.yml/dispatches',]
