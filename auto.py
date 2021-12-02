@@ -21,7 +21,7 @@ def run():
 
 
 count = 0
-while count < 20:
+while count < 1:
     run()
-    time.sleep(360)
+#     time.sleep(360)
     count += 1
