@@ -6,7 +6,7 @@ import json
 def run():
     print("new round")
 #     payload = json.dumps({"ref": "main"})
-    header = {'Authorization': 'token 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',
+    header = {'Authorization': 'token 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',
               "Accept": "application/vnd.github.v3+json"}
 #     name_list = ['files_rename','E5api','wzry-skins']
     url_list = [r'https://api.github.com/repos/oldboyprq/E5api/actions/workflows/Task.yml/dispatches',]
@@ -21,7 +21,7 @@ def run():
 
 
 count = 0
-while count < 1:
+while count < 20:
     run()
-#     time.sleep(360)
+    time.sleep(180)
     count += 1
