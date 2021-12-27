@@ -24,7 +24,7 @@ def run():
 
 
 count = 0
-while count < 20:
+while count < 10:
     run()
-    time.sleep(180)
+    time.sleep(600)
     count += 1
