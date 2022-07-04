@@ -26,5 +26,5 @@ def run():
 count = 0
 while count < 10:
     run()
-    time.sleep(600)
+    time.sleep(60)
     count += 1
